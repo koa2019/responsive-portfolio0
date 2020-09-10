@@ -1,0 +1,94 @@
+.containerContact {
+    background-color: #fff;
+    max-width: 560px;
+    height: auto;
+    margin: 50px auto 100px;
+    padding: 0 30px 10px;
+    position: relative;
+    top: 45px;
+}
+
+.contactForm {
+    padding: 10px 30px 20px 30px;
+    line-height: 30px;
+    color: #787a94;
+    background-color:  #d5d6dfbb;
+
+}
+
+label {
+    display: block;
+}
+
+input,
+textarea {
+    display: block;
+    border-radius: 4px;
+    border-width: 1px;
+    border-style: solid;
+    border-color:  rgb(35, 51, 10);
+}
+
+#name {
+    width: 100%;
+    /*extends boxes to full width of form*/
+}
+
+#email {
+    width: 100%;
+    /*extends boxes to full width of form*/
+}
+
+#message {
+    width: 100%;
+    /*extends boxes to full width of form*/
+    height: 100px;
+    margin-bottom: 10px;
+}
+
+.submit {
+    background-color:rgb(111, 112, 126);
+    color: #fff;
+    font-size: 18px;
+    float: right;
+    border-radius: 4px;
+}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 200px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  }
+  
+  /* Modal Content */
+  .modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 40%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }

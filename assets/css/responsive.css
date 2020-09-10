@@ -1,0 +1,84 @@
+
+/* --------------- */
+/* responsive css */
+@media screen and (max-width: 980px) {
+    .navLeft {
+        margin-left: 50px;
+    }
+    .navRight {
+        margin-right: 10px;
+    }
+    .container {
+        max-width: 75%;
+        min-width: 600px;
+        margin-bottom: 200px;
+        height: auto;
+        position: absolute;
+        top: 100px;
+        left: 50px;
+    }
+    .aboutMe {
+        margin-top: 0;
+    }
+    .container2 {
+        margin-top: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .navLeft {
+        font-size: 20px;
+    }
+    .container {
+        width: 75%;
+    }
+    img {
+        width: 250px;
+        height: auto;
+    }
+    .box figcaption {
+        /* width: 250px; */
+        height: 45px;
+        top: 225px;
+    }
+}
+
+@media screen and (max-width: 640px) {
+    nav {
+        position: static;
+        width: 100%;
+        height: 60px;
+    }
+    .navLeft {
+        width: 100%;
+        margin-left: 0;
+        line-height: 60px;
+    }
+    .navRight {
+        background-color: white;
+        margin: 0;
+        width: 100%;
+        text-align: center;
+        line-height: 25%;
+    }
+    .navright ul {
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        margin-left: 40px;
+        min-width: 400px;
+        margin-top: 100px;
+    }
+    img {
+        height: auto;
+        float: none;
+        margin-top: 10px;
+    }
+    .aboutMe {
+        margin-left: 50px;
+    }
+    .box {
+        margin: 0 50px;
+    }
+}

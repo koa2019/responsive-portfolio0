@@ -1,0 +1,154 @@
+* {
+    font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(95, 148, 15);
+}
+
+nav {
+    background-color: #fff;
+    width: 100%;
+    /* height: 90px; */
+    position: relative;
+    top: 0;
+}
+
+.navLeft {
+    background-color: rgb(111, 112, 126);
+    color: #fff;
+    font-size: 28px;
+    font-weight: 600;
+    width: 33%;
+    display: inline-block;
+    /*realigned ul in nav*/
+    min-height: 90px;
+    padding: 30px 0 0 80px;
+}
+
+.navLeft a {
+    color: white;
+}
+
+a:hover, a:active {
+    color: rgb(142, 209, 41);
+}
+button:hover {
+    color: rgb(142, 209, 41);
+}
+
+.navRight {
+    float: right;
+    margin-right: 90px;
+    font-size: 22px;
+    font-weight: 700;
+}
+
+ul li {
+    display: inline-block;
+    /* ul is listed horizontally */
+    list-style: none;
+    /* removes bullets & all style from ul*/
+    line-height: 100px;
+    /*equal to nav height  */
+}
+
+ul li a {
+    text-decoration: none;
+    /*gets rid of underline on text link */
+    color: #787a94;
+    padding: 0 20px;
+    display: block;
+    /*creates box so bigger area to click on link*/
+    clear: both;
+    overflow: auto;
+}
+
+body {
+    background-color: #c3c6dabb;
+}
+
+.aboutContainer{
+    background-color: #fff;
+    max-width: 660px;
+    height: auto;
+    margin: 50px auto 100px;
+    padding: 0 30px 10px;
+    position: relative;
+    top: 45px;
+}
+
+.container {
+    background-color: #fff;
+    max-width: 960px;
+    height: auto;
+    margin: 50px auto 100px;
+    padding: 0 30px 10px;
+    position: relative;
+    top: 45px;
+}
+
+.container2 {
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+h1 {
+    color: rgb(111, 112, 126);
+    font-size: 24px;
+    font-weight: bolder;
+    display: inline-block;
+    padding: 15px 0 5px 0;
+}
+
+p {
+    margin: 22px 0;
+    font-size: 16px;
+    line-height: 30px;
+    padding: 0 0 5px 0;
+}
+
+img {
+    float: left;
+    margin: 0 20px 10px 0;
+}
+
+.clear {
+    /*use to clear float elements*/
+    clear: both;
+    overflow: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 25px 0;
+    font-size: large;
+    font-weight: 500;
+    font-family: 'Segoe UI', 'Tahoma', 'Geneva', 'Verdana', 'sans-serif';
+    background-color: #63626d;
+    color: white;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    bottom: 0;
+    /*sets it flush to the bottom of page*/
+    left: 0;
+}
+
+footer a {
+    padding: 0 20px;
+}
+
+@media screen and (max-width: 980px) {
+
+}
+
+@media screen and (max-width: 768px) {
+   
+}
+
+@media screen and (max-width: 640px) { 
+
+}

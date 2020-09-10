@@ -1,0 +1,41 @@
+
+.boxSet {
+    height: auto;
+    background-color:  #d5d6dfbb;
+
+}
+
+.box {
+    background-color: white;
+    position: relative;
+    float: left;
+    border-width: 2px;
+    border-style: solid;
+    border-color: rgb(95, 148, 15);
+    margin: 22px;
+
+}
+.box img {
+    height: 200px;
+    width: 250px;
+    margin: 0 0 20px;
+}
+.box figcaption {
+    font-size: 20px;
+    padding: 10px;
+    /* height: 60px; */
+    width: 100%;
+    text-align: center;
+    background-color: rgb(111, 112, 126);
+    color: white;
+    position: absolute;
+    top: 68%;
+}
+
+.githubdiv {
+    margin: 25px 0 10px 5px;
+    min-height: 36px;
+}
+.hiddenBox {
+    visibility: hidden;
+}
